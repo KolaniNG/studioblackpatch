@@ -101,12 +101,16 @@ nav ul li a {
 }
 
 .home-page .section-1 .card {
-  padding: 3rem 0;
+  padding-bottom: 2rem;
   flex: 1;
   max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 6px solid #ED1487;
+  border-radius: 16px;
+  min-height: 17.5rem;
+  width: 100%;
 }
 
 .home-page .section-1 .card img {
@@ -114,6 +118,7 @@ nav ul li a {
   height: 12.5rem;
   object-fit: cover;
   padding-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .home-page .section-1 {
@@ -125,6 +130,7 @@ nav ul li a {
   gap: 2rem;
   justify-content: center;
   align-items: stretch;
+  margin-top: 3rem;
 }
 
 .home-page .section-1 h2 {
@@ -139,6 +145,11 @@ nav ul li a {
   color: #e4a7c8;
 }
 
+.home-page .section-1 .cards a {
+  display: flex;
+  flex: 1;
+}
+
 .home-page .section-2 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -147,7 +158,7 @@ nav ul li a {
 }
 
 .home-page .section-2 .card {
-  flex: 0 0 calc((100% / 3) - (4rem / 3));
+  flex: 0 0 18.75rem;
 
   display: flex;
   flex-direction: column;
@@ -195,8 +206,6 @@ nav ul li a {
 
 .home-page .section-2 {
   margin-bottom: 7rem;
-  padding-left: 14rem;
-  padding-right: 14rem;
 }
 
 .home-page .contact-buttons {
@@ -228,4 +237,115 @@ nav ul li a {
 
 .home-page .section-3 a {
   color: #ED1487;
+}
+
+/* media queries */
+
+/* media query 2 */
+@media (min-width: 760px) {}
+
+/* media query 2 */
+@media (min-width: 1024px) {
+
+  /* home page */
+  .home-page .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page .section-1 .card {
+    padding-bottom: 2rem;
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 17.5rem;
+    width: 100%;
+  }
+
+  .home-page .section-1 .card img {
+    height: 12.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .home-page .section-1 {
+    margin-bottom: 5rem;
+  }
+
+  .home-page .section-1 .cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 3rem;
+  }
+
+  .home-page .section-1 h2 {
+    width: 50%;
+  }
+
+  .home-page .section-1 .cards a {
+    display: flex;
+    flex: 1;
+  }
+
+  .home-page .section-2 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .home-page .section-2 .card {
+    flex: 0 0 18.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem 0;
+  }
+
+  .home-page .section-2 .top-row {
+    margin: 4rem 0 6rem 0;
+  }
+
+  .home-page .section-2 .card img {
+    width: 8rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-page .section-2 .card>p:nth-of-type(1) {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ED1487;
+  }
+
+  .home-page .section-2 .card>p:nth-of-type(2) {
+    padding: 1rem 0;
+    max-width: 19ch;
+  }
+
+  .home-page .section-2 {
+    margin-bottom: 7rem;
+  }
+
+  .home-page .contact-buttons {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .home-page .contact-buttons a {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
