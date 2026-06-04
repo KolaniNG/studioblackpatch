@@ -81,7 +81,7 @@ nav ul li {
 nav ul li a {
   font-size: 1rem;
   font-weight: 700;
-  color: #ED1487
+  color: #ff4fa8;
 }
 
 /* footer */
@@ -91,13 +91,13 @@ nav ul li a {
 .home-page h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #ED1487;
+  color: #ff4fa8;
 }
 
 .home-page h2 {
   font-size: 1rem;
   font-weight: 700;
-  color: #ED1487;
+  color: #ff4fa8;
 }
 
 .home-page .section-1 {
@@ -114,7 +114,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 6px solid #ED1487;
+  border: 6px solid #ff4fa8;
   border-radius: 16px;
   min-height: 17.5rem;
   width: 100%;
@@ -175,7 +175,7 @@ nav ul li a {
   padding: 3rem 0;
 
   background: rgb(19, 20, 28);
-  border: 6px solid #ED1487;
+  border: 6px solid #ff4fa8;
   border-radius: 16px;
 }
 
@@ -185,7 +185,7 @@ nav ul li a {
 
 .home-page .section-2 .card img {
   width: 8rem;
-  aspect-ratio: 1 / 1;
+  height: 8rem;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -194,7 +194,7 @@ nav ul li a {
 .home-page .section-2 .card>p:nth-of-type(1) {
   font-size: 1rem;
   font-weight: 700;
-  color: #ED1487;
+  color: #ff4fa8;
 }
 
 .home-page .section-2 .card>p:nth-of-type(2) {
@@ -204,8 +204,10 @@ nav ul li a {
 }
 
 .home-page .section-2 .cards a {
-  color: #ED1487;
+  color: #ff4fa8;
   transition: color 0.2s ease;
+  padding: 0.5rem 3rem;
+  display: inline-block;
 }
 
 .home-page .section-2 .cards a:hover {
@@ -230,7 +232,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ED1487;
+  color: #ff4fa8;
   transition: color 0.2s ease;
 }
 
@@ -244,7 +246,7 @@ nav ul li a {
 }
 
 .home-page .section-3 a {
-  color: #ED1487;
+  color: #ff4fa8;
 }
 
 /* media queries */
@@ -320,7 +322,7 @@ nav ul li a {
     padding: 3rem 0;
 
     background: rgb(19, 20, 28);
-    border: 6px solid #ED1487;
+    border: 6px solid #ff4fa8;
     border-radius: 16px;
   }
 
@@ -336,7 +338,7 @@ nav ul li a {
   .home-page .section-2 .card>p:nth-of-type(1) {
     font-size: 1rem;
     font-weight: 700;
-    color: #ED1487;
+    color: #ff4fa8;
   }
 
   .home-page .section-2 .card>p:nth-of-type(2) {
