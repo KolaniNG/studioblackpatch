@@ -109,7 +109,7 @@ nav ul li a {
 
 .home-page .section-1 .card {
   padding-bottom: 2rem;
-  flex: 1;
+  flex: 0 1 18rem;
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -134,9 +134,10 @@ nav ul li a {
 
 .home-page .section-1 .cards {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   margin-top: 3rem;
 }
 
@@ -248,11 +249,11 @@ nav ul li a {
 
 /* media queries */
 
-/* media query 2 */
+/* media query 1 */
 @media (min-width: 760px) {}
 
 /* media query 2 */
-@media (min-width: 1024px) {
+@media (min-width: 970px) {
 
   /* home page */
 
@@ -265,7 +266,7 @@ nav ul li a {
 
   .home-page .section-1 .card {
     padding-bottom: 2rem;
-    flex: 1;
+    flex: 0 1 18rem;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -285,6 +286,8 @@ nav ul li a {
 
   .home-page .section-1 .cards {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 2rem;
     justify-content: center;
     align-items: stretch;
@@ -297,7 +300,6 @@ nav ul li a {
 
   .home-page .section-1 .cards a {
     display: flex;
-    flex: 1;
   }
 
   .home-page .section-2 .cards {
